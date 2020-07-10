@@ -13,10 +13,11 @@ export const globalStyles = StyleSheet.create({
   paragraph: {
     marginVertical: 8,
     lineHeight: 20
-  }
+  },
+  input: {}
 })
 
-export const images = {
+export const images: any = {
   ratings: {
     1: require('../assets/rating-1.png'),
     2: require('../assets/rating-2.png'),
